@@ -6,6 +6,14 @@ import (
 )
 
 func main() {
+	// s := "Thundercats"
+
+	// fmt.Printf("strings %s and %s are equal %t\n", s, "Thundercats", s == "Thundercats")
+	// fmt.Printf("strings %s and %s are not equal %t\n", s, "Thundercats", s != "Thundercats")
+
+	// fmt.Printf("strings %s and %s > %t\n", s, "thundercats", s > "thundercats")
+	// fmt.Printf("strings %s and %s < %t\n", s, "thundercats", s < "thundercats")
+
 	bs := make([]byte, 1<<26)
 	s0 := string(bs)
 	s1 := string(bs)

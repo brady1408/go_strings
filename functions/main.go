@@ -17,7 +17,7 @@ func main() {
 	fmt.Print("\n\n")
 
 	// concat with strings.Join
-	people := []string{"Nav", "Navster", "Navaronie and Cheese"}
+	people := []string{"Nav", "Navster", "Navaroni and Cheese"}
 	fmt.Println("strings.join")
 	for _, v := range people {
 		fmt.Println(strings.Join([]string{greeting, " ", v, "!"}, ""))

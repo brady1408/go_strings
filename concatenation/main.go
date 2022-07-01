@@ -7,7 +7,7 @@ import (
 
 func main() {
 	greeting := "Hello"
-	people := []string{"Nav", "Navster", "Navaronie and Cheese"}
+	people := []string{"Nav", "Navster", "Navaroni and Cheese"}
 
 	fmt.Println("Using go + operator")
 	for _, v := range people {
